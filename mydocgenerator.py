@@ -1,5 +1,5 @@
 import argparse
-from generateDoc import startgenerate
+from mydocgenerator.generateDoc import startgenerate
 
 def main():
     parser = argparse.ArgumentParser(description='Generate HTML documentation for Python modules, classes, and methods.')
